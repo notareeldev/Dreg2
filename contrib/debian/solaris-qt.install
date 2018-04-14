@@ -1,0 +1,6 @@
+usr/local/bin/Dregulate-qt usr/bin
+share/pixmaps/bitcoin32.xpm usr/share/pixmaps
+share/pixmaps/bitcoin16.xpm usr/share/pixmaps
+share/pixmaps/bitcoin128.png usr/share/pixmaps
+debian/Dregulate-qt.desktop usr/share/applications
+debian/Dregulate-qt.protocol usr/share/kde4/services/

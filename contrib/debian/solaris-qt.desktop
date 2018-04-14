@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dregulate
+Comment=Dregulate P2P Cryptocurrency
+Comment[fr]=Dregulate, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Dregulate, eşten eşe kriptografik sanal para birimi
+Exec=Dregulate-qt %u
+Terminal=false
+Type=Application
+Icon=Dregulate128
+MimeType=x-scheme-handler/Dregulate;
+Categories=Office;Finance;

@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/Dregulate_bg.qm</file>
+        <file alias="ca">locale/Dregulate_ca.qm</file>
+        <file alias="cs">locale/Dregulate_cs.qm</file>
+        <file alias="da">locale/Dregulate_da.qm</file>
+        <file alias="de">locale/Dregulate_de.qm</file>
+        <file alias="en">locale/Dregulate_en.qm</file>
+        <file alias="en_US">locale/Dregulate_en_US.qm</file>
+        <file alias="es">locale/Dregulate_es.qm</file>
+        <file alias="fi">locale/Dregulate_fi.qm</file>
+        <file alias="fr_FR">locale/Dregulate_fr_FR.qm</file>
+        <file alias="hr">locale/Dregulate_hr.qm</file>
+        <file alias="it">locale/Dregulate_it.qm</file>
+        <file alias="ja">locale/Dregulate_ja.qm</file>
+        <file alias="ko_KR">locale/Dregulate_ko_KR.qm</file>
+        <file alias="nl">locale/Dregulate_nl.qm</file>
+        <file alias="pl">locale/Dregulate_pl.qm</file>
+        <file alias="pt">locale/Dregulate_pt.qm</file>
+        <file alias="pt_BR">locale/Dregulate_pt_BR.qm</file>
+        <file alias="ro_RO">locale/Dregulate_ro_RO.qm</file>
+        <file alias="ru">locale/Dregulate_ru.qm</file>
+        <file alias="sk">locale/Dregulate_sk.qm</file>
+        <file alias="sv">locale/Dregulate_sv.qm</file>
+        <file alias="tr">locale/Dregulate_tr.qm</file>
+        <file alias="uk">locale/Dregulate_uk.qm</file>
+        <file alias="zh_CN">locale/Dregulate_zh_CN.qm</file>
+        <file alias="zh_TW">locale/Dregulate_zh_TW.qm</file>
+    </qresource>
+</RCC>

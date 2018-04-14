@@ -1,0 +1,26 @@
+[Unit]
+Description=Dregulate's distributed currency daemon
+After=network.target
+
+[Service]
+User=Dregulate
+Group=Dregulate
+
+Type=forking
+PIDFile=/var/lib/Dregulated/Dregulated.pid
+
+ExecStart=/usr/bin/Dregulated -daemon -pid=/var/lib/Dregulated/Dregulated.pid \
+          -conf=/etc/Dregulate/Dregulate.conf -datadir=/var/lib/Dregulated
+
+ExecStop=-/usr/bin/Dregulate-cli -conf=/etc/Dregulate/Dregulate.conf \
+         -datadir=/var/lib/Dregulated stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

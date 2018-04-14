@@ -1,0 +1,26 @@
+# /etc/conf.d/Dregulated: config file for /etc/init.d/Dregulated
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/Dregulate/Dregulate.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/Dregulated"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/Dregulated.pid"
+
+# Where to write Dregulated data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/Dregulated"
+
+# User and group to own Dregulated process
+#BITCOIND_USER="Dregulate"
+#BITCOIND_GROUP="Dregulate"
+
+# Path to Dregulated executable
+#BITCOIND_BIN="/usr/bin/Dregulated"
+
+# Nice value to run Dregulated under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
